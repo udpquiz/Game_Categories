@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "904864360346",
+    "project_id": "game-categories",
+    "storage_bucket": "game-categories.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904864360346:android:a8d8aeb35988bfb8c5bc23",
+        "android_client_info": {
+          "package_name": "com.game.categories"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDipx6IuzPVodc65WLUqG53TkcQlNbgZ1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

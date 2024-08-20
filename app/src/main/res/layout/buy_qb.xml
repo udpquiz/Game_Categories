@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:layout_alignParentRight="true">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QB = "
+            android:textSize="26sp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_qbamt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="26sp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll"
+        android:layout_marginTop="20dp">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500 QB"
+            android:textSize="26sp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_buy500qb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BUY"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/btn_consume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"
+        android:text="Consume All QB"
+        android:layout_below="@id/rl"/>
+
+</RelativeLayout>
